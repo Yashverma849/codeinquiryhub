@@ -109,6 +109,7 @@ img {
   overflow: hidden;
 }
 
+
 /* 
 ---------------------------------------------
 Global Styles
@@ -287,8 +288,8 @@ Header Style
 .background-header {
   background-color: #7a6ad8 !important;
   border-radius: 0px 0px 25px 25px;
-  height: 80px!important;
-  position: fixed!important;
+  height: 60px !important; /* Decrease height as needed */
+  position: centre important;
   top: 0!important;
   left: 0;
   right: 0;
@@ -300,7 +301,7 @@ Header Style
 }
 @media (max-width: 768px) {
   .content {
-    padding-top: 130px; /* Adjust this value as needed for smaller screens */
+    padding-top: 80px; /* Adjust this value as needed for smaller screens */
   }
 }
 
@@ -385,6 +386,7 @@ Header Style
   position: relative;
   z-index: 999;
 }
+
 
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
@@ -676,7 +678,7 @@ Banner Style
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 150px 50px 150px 50px;
 }
 
 .main-banner .item-1 {
@@ -705,7 +707,7 @@ Banner Style
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 50px 50px;
   border-radius: 20px;
   display: inline-block;
   margin-bottom: 50px;
